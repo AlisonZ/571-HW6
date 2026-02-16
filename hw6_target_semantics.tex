@@ -1,0 +1,51 @@
+\documentclass{article}
+\begin{document}
+\title{Target Semantic Representations}
+\maketitle{}
+\begin{enumerate}
+    \item John eats \\
+    $\exists e.(Eat(e) \land Eater(e, John))$
+    
+    \item a student eats \\
+    $\exists e \exists x.(Eat(e) \land Eater(e, x) \land Student(x))$
+
+    \item all students eat \\ 
+    $\forall x(Student(x) --> \exists e.(Eat(e) \land Eater(e, x)))$
+
+    \item John eats a sandwich \\
+    $\exists e\exists x.(Eat(e) \land Eater(e,John) \land Sandwich(x) \land Eaten(e,x))$
+
+    \item  all students eat or drink \\
+    $\forall x(Student(x) --> \exists e.((Eat(e) \land Eater(e, x)) | (Drink(e) \land Drinker(e, x))))$
+
+    \item John drinks a soda or eats a sandwich \\
+    $(\exists e1\exists x.(Drink(e1) \land Drinker(e1,John) \land Soda(x) \land Drunk(e1,x))) | (\exists e2\exists y.(Eat(e2) \land Eater(e2,John) \land Sandwich(y) \land Eaten(e2,y)))$
+
+    \item John or Mary eats \\
+    $\exists e.(Eat(e) \land (Eater(e, John) | Eater(e, Mary)))$
+
+    \item a student writes an essay or eats \\
+    $ \exists x.(Student(x) \land ((\exists e1.(Eat(e1) \land Eater(e1, x))) | (\exists e2\exists y.(Write(e2) \land Writer(e2, x) \land Essay(y) \land Written(e2, y)))))$
+    
+    \item every student eats a sandwich or drinks a soda \\
+     $\forall x(Student(x) --> (\exists e1\exists y.(Eat(e1) \land Eater(e1, x) \land Sandwich(y) \land Eaten(e1, y)) | \exists e2\exists z.(Drink(e2) \land Drinker(e2,x) \land Soda(z) \land Drank(e2, z))))$
+
+    \item John eats every sandwich \\
+    $\forall x(Sandwich(x) --> \exists e.(Eat(e) \land Eater(e, John) \land Eaten(e, x)))$
+
+    \item John eats every sandwich or bagel \\ 
+    $\forall x((Sandwich(x) | Bagel(x)) --> \exists e.(Eat(e) \land Eater(e, John) \land Eaten(e, x)))$
+    
+    \item nobody eats a bagel \\ 
+    $ ¬\exists e\exists x\exists y.(Eat(e) \land Eater(e, x) \land Bagel(y) \land Eaten(e,y))$
+
+    \item a person does not eat \\
+    $ \exists x.(Person(x) \land ¬\exists e.(Eat(e) \land Eater(e,x)))$
+    
+    \item  Jack does not eat or drink\\
+    $¬(\exists e1.(Eat(e1) \land Eater(e1, Jack)) | \exists e2.(Drink(e2) \land Drinker(e2, Jack)))$
+
+    \item no student eats a bagel \\
+    $\forall x(Student(x) --> ¬\exists e\exists y.(Eat(e) \land Eater(e,x) \land Bagel(y) \land Eaten(e, y)))$
+\end{enumerate}
+\end{document}

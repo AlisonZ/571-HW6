@@ -1,0 +1,142 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 FEB 2026 13:39
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/alisonzerbe/CompLing/571/571-HW6/hw6_target_semantics.tex
+(/Users/alisonzerbe/CompLing/571/571-HW6/hw6_target_semantics.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box52
+) (./hw6_target_semantics.aux)
+\openout1 = `hw6_target_semantics.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+
+Overfull \hbox (8.67017pt too wide) in paragraph at lines 18--20
+\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Student\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ ^^@ \OML/cmm/m/it/10 > \OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 e:\OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 Eat\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Eater\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e; x\OT1/cmr/m/n/10 ))\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Drink\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Drinker\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e; x\OT1/cmr/m/n/10 ))))$ 
+ []
+
+
+Overfull \hbox (47.36746pt too wide) in paragraph at lines 21--23
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 x:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Drink\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Drinker\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; John\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Soda\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Drunk\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; x\OT1/cmr/m/n/10 )))\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 y:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Eat\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (43.08429pt too wide) in paragraph at lines 27--29
+\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 x:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Student\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Eat\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Eater\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; x\OT1/cmr/m/n/10 )))\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 y:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Write\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Writer\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (8.65326pt too wide) in paragraph at lines 30--32
+\OML/cmm/m/it/10 Eaten\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; y\OT1/cmr/m/n/10 ))\OMS/cmsy/m/n/10 j9\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 z:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Drink\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Drinker\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Soda\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Drank\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; z\OT1/cmr/m/n/10 ))))$ 
+ []
+
+
+Overfull \hbox (15.77657pt too wide) in paragraph at lines 36--38
+\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 Sandwich\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 Bagel\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^@ ^^@ \OML/cmm/m/it/10 > \OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 e:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Eat\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Eater\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e; John\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 Eaten\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e; x\OT1/cmr/m/n/10 )))$ 
+ []
+
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 40.
+
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 40.
+
+Missing character: There is no ¬ in font cmr10!
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 43.
+
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 43.
+
+Missing character: There is no ¬ in font cmr10!
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 46.
+
+Missing character: There is no ¬ in font cmr10!
+
+
+[1
+
+{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 49.
+
+
+LaTeX Warning: Command \textlnot invalid in math mode on input line 49.
+
+Missing character: There is no ¬ in font cmr10!
+
+
+[2] (./hw6_target_semantics.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 465 strings out of 474662
+ 9012 string characters out of 5751110
+ 400245 words of memory out of 5000000
+ 23576 multiletter control sequences out of 15000+600000
+ 562207 words of font info for 47 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 35i,6n,50p,274b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on hw6_target_semantics.pdf (2 pages, 63234 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
