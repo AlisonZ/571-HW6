@@ -1,0 +1,37 @@
+%start S
+
+S[SEM=<?subj(?vp)>] -> NP[SEM=?subj] VP[SEM=?vp]
+NP[SEM=?n] -> PropN[SEM=?n]
+NP[SEM=<?conj(?np1, ?np2)>] -> NP[SEM=?np1] CONJ[SEM=?conj] NP[SEM=?np2]
+VP[SEM=?iv] -> IV[SEM=?iv]
+VP[SEM=<?tv(?obj)>] -> TV[SEM=?tv] NP[SEM=?obj]
+VP[SEM=<?conj(?vp1, ?vp2)>] -> VP[SEM=?vp1] CONJ[SEM=?conj] VP[SEM=?vp2]
+VP[SEM=<?neg(?iv)>] -> AUX NEG[SEM=?neg] IV[SEM=?iv]
+IV[SEM=<?conj(?v1, ?v2)>] -> IV[SEM=?v1] CONJ[SEM=?conj] IV[SEM=?v2]
+
+NP[SEM=<?det(?n)>] -> Det[SEM=?det] N[SEM=?n]
+IV[num='sg', SEM=<\x.exists e.(Eat(e) & Eater(e, x)),TNS='pres'>] -> 'eats'
+IV[num='pl', SEM=<\x.exists e.(Eat(e) & Eater(e, x)),TNS='pres'>] -> 'eat'
+IV[num='pl', SEM=<\x.exists e.(Drink(e) & Drinker(e, x))>, TNS='pres'] -> 'drink'
+TV[num='sg', SEM=<\X x.X(\y.exists e.(Drink(e) & Drinker(e, x) & Drunk(e,y)))>, TNS='pres'] -> 'drinks'
+TV[num='sg', SEM=<\X x.X(\y.exists e.(Eat(e) & Eater(e, x) & Eaten(e,y)))>, TNS='pres'] -> 'eats'
+TV[num='sg', SEM=<\X x.X(\y.exists e.(Write(e) & Writer(e, x) & Written(e, y)))>, TNS='pres'] -> 'writes'
+NP[SEM=<\P.-(exists x.(P(x)))>] -> 'nobody'
+
+AUX -> 'does'
+PropN[-LOC, NUM='sg', SEM=<\P.P(John)>] -> 'John'
+PropN[-LOC, NUM='sg', SEM=<\P.P(Mary)>] -> 'Mary'
+PropN[-LOC, NUM='sg', SEM=<\P.P(Jack)>] -> 'Jack'
+N[num='sg', SEM=<\x.Student(x)>] -> 'student'
+N[num='sg', SEM=<\x.Person(x)>] -> 'person'
+N[num='pl', SEM=<\x.Student(x)>] -> 'students'
+N[num='sg', SEM=<\x.Soda(x)>] -> 'soda'
+N[num='sg', SEM=<\x.Bagel(x)>] -> 'bagel'
+N[num='sg', SEM=<\x.Essay(x)>] -> 'essay'
+N[SEM=<\x.Sandwich(x)>] -> 'sandwich'
+Det[SEM=<\Q P.exists x.(Q(x) & P(x))>] -> 'a'
+Det[SEM=<\Q P.-(exists x.(Q(x) & P(x)))>] -> 'no'
+Det[SEM=<\Q P.all x.(Q(x) -> P(x))>] -> 'all'
+Det[SEM=<\Q P.all x.(Q(x) -> P(x))>] -> 'every'
+CONJ[SEM=<\P Q x.((P(x)) | (Q(x)))>] -> 'or'
+NEG[SEM=<\P x.-(P(x))>] -> 'not'

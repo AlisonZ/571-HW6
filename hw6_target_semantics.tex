@@ -37,15 +37,15 @@
     $\forall x((Sandwich(x) | Bagel(x)) --> \exists e.(Eat(e) \land Eater(e, John) \land Eaten(e, x)))$
     
     \item nobody eats a bagel \\ 
-    $ ¬\exists e\exists x\exists y.(Eat(e) \land Eater(e, x) \land Bagel(y) \land Eaten(e,y))$
+    $ \neg \exists e\exists x\exists y.(Eat(e) \land Eater(e, x) \land Bagel(y) \land Eaten(e,y))$
 
     \item a person does not eat \\
-    $ \exists x.(Person(x) \land ¬\exists e.(Eat(e) \land Eater(e,x)))$
+    $ \exists x.(Person(x) \land \neg \exists e.(Eat(e) \land Eater(e,x)))$
     
     \item  Jack does not eat or drink\\
-    $¬(\exists e1.(Eat(e1) \land Eater(e1, Jack)) | \exists e2.(Drink(e2) \land Drinker(e2, Jack)))$
+    $\neg (\exists e1.(Eat(e1) \land Eater(e1, Jack)) | \exists e2.(Drink(e2) \land Drinker(e2, Jack)))$
 
     \item no student eats a bagel \\
-    $\forall x(Student(x) --> ¬\exists e\exists y.(Eat(e) \land Eater(e,x) \land Bagel(y) \land Eaten(e, y)))$
+    $\forall x(Student(x) --> \neg \exists e\exists y.(Eat(e) \land Eater(e,x) \land Bagel(y) \land Eaten(e, y)))$
 \end{enumerate}
 \end{document}
