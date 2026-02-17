@@ -16,7 +16,6 @@ def get_inputs():
 def load_grammar(grammar_input):
     abs_path = os.path.abspath(grammar_input)
     grammar_url = f"file://{abs_path}"
-    print(f"PATHHHHH {grammar_url}")
     grammar = nltk.data.load(grammar_url)
     parser = parse.FeatureChartParser(grammar)
     return parser
@@ -28,9 +27,11 @@ def read_sentences(input_sentences, output_file, parser):
             for line in lines:
                 if line:
                     tokens = line.split()
-                    trees = parser.parse(tokens)
-                    print(f"{line}", file=output)
-                    print(f"XXX {tokens}")
+                    trees =  list(parser.parse(tokens))
+                    print(f"{line.strip()}", file=output)
+                    if trees:
+                        semantic_rep = trees[0].label()['SEM']
+                        print(f"{semantic_rep} \n", file=output)
 
 def main():
     grammar_input, input_sentences, output_file = get_inputs()
