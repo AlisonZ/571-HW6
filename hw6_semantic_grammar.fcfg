@@ -10,8 +10,8 @@ VP[SEM=<?neg(?iv)>] -> AUX NEG[SEM=?neg] IV[SEM=?iv]
 IV[SEM=<?conj(?v1, ?v2)>] -> IV[SEM=?v1] CONJ[SEM=?conj] IV[SEM=?v2]
 
 NP[SEM=<?det(?n)>] -> Det[SEM=?det] N[SEM=?n]
-IV[num='sg', SEM=<\x.exists e.(Eat(e) & Eater(e, x)),TNS='pres'>] -> 'eats'
-IV[num='pl', SEM=<\x.exists e.(Eat(e) & Eater(e, x)),TNS='pres'>] -> 'eat'
+IV[num='sg', TNS='pres', SEM=<\x.exists e.(Eat(e) & Eater(e, x))>] -> 'eats'
+IV[num='pl', SEM=<\x.exists e.(Eat(e) & Eater(e, x))>,TNS='pres'] -> 'eat'
 IV[num='pl', SEM=<\x.exists e.(Drink(e) & Drinker(e, x))>, TNS='pres'] -> 'drink'
 TV[num='sg', SEM=<\X x.X(\y.exists e.(Drink(e) & Drinker(e, x) & Drunk(e,y)))>, TNS='pres'] -> 'drinks'
 TV[num='sg', SEM=<\X x.X(\y.exists e.(Eat(e) & Eater(e, x) & Eaten(e,y)))>, TNS='pres'] -> 'eats'
@@ -29,7 +29,7 @@ N[num='sg', SEM=<\x.Soda(x)>] -> 'soda'
 N[num='sg', SEM=<\x.Bagel(x)>] -> 'bagel'
 N[num='sg', SEM=<\x.Essay(x)>] -> 'essay'
 N[SEM=<\x.Sandwich(x)>] -> 'sandwich'
-Det[SEM=<\Q P.exists x.(Q(x) & P(x))>] -> 'a'
+Det[SEM=<\Q P.exists x.(Q(x) & P(x))>] -> 'a' | 'an'
 Det[SEM=<\Q P.-(exists x.(Q(x) & P(x)))>] -> 'no'
 Det[SEM=<\Q P.all x.(Q(x) -> P(x))>] -> 'all'
 Det[SEM=<\Q P.all x.(Q(x) -> P(x))>] -> 'every'
